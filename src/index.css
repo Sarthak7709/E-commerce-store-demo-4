@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-verdant-bg: #F7F6F1;
+  --color-verdant-primary: #1F4D36;
+  --color-verdant-accent: #4CAF50;
+  --color-verdant-secondary: #D9A441;
+  --color-verdant-text: #202020;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-verdant-bg);
+  color: var(--color-verdant-text);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  cursor: none; /* Custom cursor used */
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-verdant-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-verdant-primary);
+  border-radius: 4px;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.text-verdant-primary {
+  color: var(--color-verdant-primary);
+}
+
+.bg-verdant-primary {
+  background-color: var(--color-verdant-primary);
+}
+
+.text-verdant-accent {
+  color: var(--color-verdant-accent);
+}
+
+.bg-verdant-accent {
+  background-color: var(--color-verdant-accent);
+}
+
+.text-verdant-secondary {
+  color: var(--color-verdant-secondary);
+}
+
+.bg-verdant-secondary {
+  background-color: var(--color-verdant-secondary);
+}
+
+.text-verdant-text {
+  color: var(--color-verdant-text);
+}
+
+/* Hide default cursor on links/buttons to use custom cursor */
+a, button, input, select, textarea {
+  cursor: none !important;
+}

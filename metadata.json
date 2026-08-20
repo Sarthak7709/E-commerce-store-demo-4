@@ -1,0 +1,6 @@
+{
+  "name": "Verdant Market",
+  "description": "Premium organic grocery ecommerce experience with 3D interactions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
